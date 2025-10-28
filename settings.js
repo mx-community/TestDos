@@ -13,18 +13,13 @@ global.botNumber = "" //Ejemplo: 573218138672
 
 global.owner = [
 // <-- Número @s.whatsapp.net -->
-["51908027316", "🜲 Propietario", true],
-["51908027316"],
-['51919199620'],
-
-// <-- Número @lid -->
-["235510823915591", "OmarGranda", true],
-["235510823915591", "OmarGranda", true]
+["5493873655135", "🜲 Propietario", true],
+["5493873579805"]
 ]
 
-global.mods = ["51908027316"]
-global.suittag = ["51908027316"] 
-global.prems = ["51908027316"]
+global.mods = ["5493873655135"]
+global.suittag = ["5493873655135"] 
+global.prems = ["5493873655135"]
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
@@ -53,7 +48,7 @@ global.channel = "https://whatsapp.com/channel/0029Vb6wMPa8kyyTpjBG9C2H"
 global.github = "https://github.com/OmarGranda/MiyukiBot-MD" 
 global.gmail = "omargranda673@gmail.com"
 global.ch = {
-ch1: "120363422169517881@newsletter"
+ch1: "120363318353263389@newsletter"
 }
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
