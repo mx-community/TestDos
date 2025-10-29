@@ -9,9 +9,7 @@ conn.sendPresenceUpdate('composing', m.chat)
 
 let mentionedJid = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
 let totalCommands = Object.keys(global.plugins).length
-const iconos = [
-'https://qu.ax/TPfmC.jpg'
-]
+const iconos = 'https://qu.ax/TPfmC.jpg'
 const randomIcono = iconos[Math.floor(Math.random() * iconos.length)]
 
 let timestamp = speed()
@@ -249,7 +247,7 @@ let menu = `📍  Hola usuario @${mentionedJid.split('@')[0]}, aqui esta la list
 
 > ${textoInfo}`
 
-await conn.sendMessage(m.chat, { text: menu, contextInfo: { externalAdReply: { title: "Menu", body: "Nose", thumbnail: xImagen2, sourceUrl: null, mediaType: 1, renderLargerThumbnail: true }}}, { quoted: m })
+await conn.sendMessage(m.chat, { text: menu, contextInfo: { externalAdReply: { title: "Menu", body: "Nose", thumbnail: iconos, sourceUrl: null, mediaType: 1, renderLargerThumbnail: true }}}, { quoted: m })
   //conn.sendMessage(m.chat, { text: menu, contextInfo: { externalAdReply: { title: botname, body: textoInfo, thumbnailUrl: [xImagen, xImagen2, xImagen3].getRandom(), sourceUrl: null, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: m })
 
 } catch (e) {
