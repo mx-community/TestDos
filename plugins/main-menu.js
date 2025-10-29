@@ -250,7 +250,7 @@ let menu = `
 
 > ${textoInfo}`
 
-await conn.sendMessage(m.chat, { text: menu, contextInfo: { mentionedJid: [mentionedJid], externalAdReply: { title: botname, body: textoInfo, thumbnailUrl: [xImagen, xImagen2, xImagen3].getRandom(), sourceUrl: null, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: m })
+await conn.sendMessage(m.chat, { text: menu, contextInfo: { externalAdReply: { title: botname, body: textoInfo, thumbnailUrl: [xImagen, xImagen2, xImagen3].getRandom(), sourceUrl: null, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: m })
 
 } catch (e) {
 console.error(e)
