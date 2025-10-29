@@ -33,18 +33,21 @@ global.shadow_xyzJadibts = true
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.xMage = "https://qu.ax/BAuJt.jpg"
-global.xMage2 = ""
-global.xMage3 = ""
-global.xImagen = ""
-global.xImagen2 = ""
-global.xImagen3 = ""
+global.xMage2 = "https://qu.ax/BTUHt.jpg"
+global.xMage3 = "https://qu.ax/shFmH.jpg"
+global.xImagen = "https://qu.ax/MooSb.jpg"
+global.xImagen2 = "https://qu.ax/XPDQK.jpg"
+global.xImagen3 = "https://qu.ax/GbfQk.jpg"
 
-global.botname = "𝙈𝙞𝙮𝙪𝙠𝙞𝘽𝙤𝙩-𝙈𝘿 🌸"
-global.textbot = "𝙼𝚒𝚢𝚞𝚔𝚒𝙱𝚘𝚝-𝙼𝙳 | © 𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝙱𝚢 𝙾𝚖𝚊𝚛𝙶𝚛𝚊𝚗𝚍𝚊"
-global.dev = "© Powered By OmarGranda"
-global.author = "Omar Granda"
-global.etiqueta = "OmarGranda"
-global.currency = "¥enes"
+global.botname = "MX-BOT"
+global.textbot = "Bot WhatsApp."
+global.textoInfo = "Designed and created by Alan.Js / @mdmx_mktg"
+global.dev = "Alan.Js"
+global.author = "« Alan.Js »"
+global.etiqueta = "[Alan.Js]"
+global.currency = "Monedas"
+global.currency2 = "Diamantes"
+global.currency3 = "Puntos"
 global.banner = "https://qu.ax/ndWOF.jpg"
 global.icono = 'https://qu.ax/ndWOF.jpg'
 global.catalogo = fs.readFileSync('./lib/catalogo.jpg')
