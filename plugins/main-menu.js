@@ -29,8 +29,7 @@ let used = total - free
 let fecha = moment.tz('America/Lima').format('DD/MM/YYYY')
 let hora = moment.tz('America/Lima').format('HH:mm:ss')
 let dia = moment.tz('America/Lima').format('dddd')
-let menu = `
-📍  Hola usuario @${mentionedJid.split('@')[0]}, aqui esta la lista de todos los comandos disponibles en este bot.
+let menu = `📍  Hola usuario @${mentionedJid.split('@')[0]}, aqui esta la lista de todos los comandos disponibles en este bot.
 
 ❒ *Mode:* » ${(conn.user.jid == global.conn.user.jid ? 'Principal.' : 'Pre-Bot.')}*
 ❒ *Actividad:* » ${uptime}
@@ -250,7 +249,7 @@ let menu = `
 
 > ${textoInfo}`
 
-await conn.sendMessage(m.chat, { text: ``, mentions: await conn.parseMention(menu), contextInfo: { externalAdReply: { title: botname, body: textoInfo, thumbnail: xImagen2, sourceUrl: null, mediaType: 1, renderLargerThumbnail: true }}}, { quoted: fkontak })
+await conn.sendMessage(m.chat, { text: menu, mentions: await conn.parseMention(menu), contextInfo: { externalAdReply: { title: botname, body: textoInfo, thumbnail: xImagen2, sourceUrl: null, mediaType: 1, renderLargerThumbnail: true }}}, { quoted: m })
   //conn.sendMessage(m.chat, { text: menu, contextInfo: { externalAdReply: { title: botname, body: textoInfo, thumbnailUrl: [xImagen, xImagen2, xImagen3].getRandom(), sourceUrl: null, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: m })
 
 } catch (e) {
