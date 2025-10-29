@@ -245,7 +245,7 @@ let menu = `📍  Hola usuario @${mentionedJid.split('@')[0]}, aqui esta la list
 ⊸⊹› #waifu
 ⊸⊹› #ppcouple | #ppcp
 
-> ${textoInfo}`
+> Menu completo.`
 
 await conn.sendMessage(m.chat, { text: menu, contextInfo: { externalAdReply: { title: "Menu", body: "Nose", thumbnail: iconos, sourceUrl: null, mediaType: 1, renderLargerThumbnail: true }}}, { quoted: m })
   //conn.sendMessage(m.chat, { text: menu, contextInfo: { externalAdReply: { title: botname, body: textoInfo, thumbnailUrl: [xImagen, xImagen2, xImagen3].getRandom(), sourceUrl: null, mediaType: 1, showAdAttribution: true, renderLargerThumbnail: true }}} , { quoted: m })
