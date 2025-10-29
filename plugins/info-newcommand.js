@@ -21,10 +21,10 @@ if (command === "sug-res" || command === "re-sug") {
 if (!text) return conn.sendMessage(m.chat, { text: `Ingrese el comando mas el numero y el texto para enviarle un mensaje de respuesta al usuario.\n\n• *Por ejemplo:*\n${usedPrefix + command} 5493873579805 Hola, nos encargaremos de eso.` }, { quoted: m })
 await m.react("⏳")
 try {
-let text = args.join(" ").split(",")
+//let text = args.join(" ").split(",")
 let numero = text[0].trim()
 let mensaje = text[1].trim()
-let [numero, mensaje] = text.split(',')
+let [numero, mensaje] = args.join(" ").split(',')
 //let numero = text[0].trim()
 //let mensaje = text[1] ? text[1].trim() : ''
 if (!numero) return conn.sendMessage(m.chat, { text: `Debe de ingresar el numero completo todo junto sin el simbolo internacional (+).\n\n• *Por ejemplo:*\n${usedPrefix + command} 5493873579805, Hola` }, { quoted: m })
