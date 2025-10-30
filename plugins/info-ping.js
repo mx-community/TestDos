@@ -50,7 +50,7 @@ let handler = async (m, { conn }) => {
           externalAdReply: {
             title: '𝙈𝙞𝙮𝙪𝙠𝙞𝘽𝙤𝙩-𝙈𝘿',
             body: 'Infinity Ultra Host',
-            thumbnail: thumbBuffer,
+            thumbnail: xImagen2,
             sourceUrl: redes,
             mediaType: 1,
             renderLargerThumbnail: true
