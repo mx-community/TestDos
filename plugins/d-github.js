@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 let regex = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
 let handler = async (m, { args, usedPrefix, command }) => {
 if (!args[0]) {
-if (!db.data.chats[m.chat].fDescargas && m.isGroup) return conn.sendMessage(m.chat, { text: `📍  Lo siento, las funciones de *Descargas* estan desactivados en este momento.\n• Un administrador grupal puede activarlo usando el comando *#on descargas*.` }, { quoted: m })
+//if (!db.data.chats[m.chat].fDescargas && m.isGroup) return conn.sendMessage(m.chat, { text: `📍  Lo siento, las funciones de *Descargas* estan desactivados en este momento.\n• Un administrador grupal puede activarlo usando el comando *#on descargas*.` }, { quoted: m })
 return conn.sendMessage(m.chat, { text: `Ingrese el comando mas un enlace de un repositorio de *GitHub* para descargarlo.` }, { quoted: m })
 }
 if (!regex.test(args[0])) {
